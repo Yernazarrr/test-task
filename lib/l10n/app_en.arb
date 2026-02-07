@@ -1,0 +1,35 @@
+{
+  "@@locale": "en",
+  "appTitle": "Auth App",
+  "emailLabel": "Email",
+  "emailHint": "Enter your email",
+  "sendCodeButton": "Send Code",
+  "codeLabel": "Verification Code",
+  "codeHint": "Enter 6-digit code",
+  "verifyButton": "Verify",
+  "logout": "Logout",
+  "authorized": "Authorized",
+  "userId": "User ID: {id}",
+  "@userId": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidEmail": "Please enter a valid email",
+  "codeRequired": "Code is required",
+  "codeMustBe6Digits": "Code must be 6 digits",
+  "errorOccurred": "An error occurred",
+  "codeSent": "Code sent to your email",
+  "enterCodeSent": "Enter the code sent to {email}",
+  "@enterCodeSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "resendCode": "Resend Code",
+  "backToEmail": "Back to Email"
+}

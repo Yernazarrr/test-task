@@ -1,0 +1,21 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Авторизация",
+  "emailLabel": "Email",
+  "emailHint": "Введите ваш email",
+  "sendCodeButton": "Отправить код",
+  "codeLabel": "Код подтверждения",
+  "codeHint": "Введите 6-значный код",
+  "verifyButton": "Подтвердить",
+  "logout": "Выйти",
+  "authorized": "Авторизован",
+  "userId": "ID пользователя: {id}",
+  "invalidEmail": "Введите корректный email",
+  "codeRequired": "Код обязателен",
+  "codeMustBe6Digits": "Код должен содержать 6 цифр",
+  "errorOccurred": "Произошла ошибка",
+  "codeSent": "Код отправлен на вашу почту",
+  "enterCodeSent": "Введите код, отправленный на {email}",
+  "resendCode": "Отправить повторно",
+  "backToEmail": "Назад к email"
+}
