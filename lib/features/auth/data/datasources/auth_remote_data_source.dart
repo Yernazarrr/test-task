@@ -1,4 +1,5 @@
 import '../models/auth_model.dart';
+import '../models/user_model.dart';
 
 abstract class AuthRemoteDataSource {
   Future<void> sendLoginCode(String email);

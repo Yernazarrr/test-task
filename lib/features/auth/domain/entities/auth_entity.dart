@@ -12,12 +12,3 @@ class AuthTokens extends Equatable {
   @override
   List<Object> get props => [accessToken, refreshToken];
 }
-
-class User extends Equatable {
-  final String userId;
-
-  const User({required this.userId});
-
-  @override
-  List<Object> get props => [userId];
-}

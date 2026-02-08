@@ -1,6 +1,7 @@
 {
   "@@locale": "en",
   "appTitle": "Auth App",
+<<<<<<< HEAD
   "emailLabel": "Email",
   "emailHint": "Enter your email",
   "sendCodeButton": "Send Code",
@@ -9,6 +10,25 @@
   "verifyButton": "Verify",
   "logout": "Logout",
   "authorized": "Authorized",
+=======
+  "@appTitle": {},
+  "emailLabel": "Email",
+  "@emailLabel": {},
+  "emailHint": "Enter your email",
+  "@emailHint": {},
+  "sendCodeButton": "Send Code",
+  "@sendCodeButton": {},
+  "codeLabel": "Verification Code",
+  "@codeLabel": {},
+  "codeHint": "Enter 6-digit code",
+  "@codeHint": {},
+  "verifyButton": "Verify",
+  "@verifyButton": {},
+  "logout": "Logout",
+  "@logout": {},
+  "authorized": "Authorized",
+  "@authorized": {},
+>>>>>>> 76a50e1 (refactored)
   "userId": "User ID: {id}",
   "@userId": {
     "placeholders": {
@@ -18,10 +38,22 @@
     }
   },
   "invalidEmail": "Please enter a valid email",
+<<<<<<< HEAD
   "codeRequired": "Code is required",
   "codeMustBe6Digits": "Code must be 6 digits",
   "errorOccurred": "An error occurred",
   "codeSent": "Code sent to your email",
+=======
+  "@invalidEmail": {},
+  "codeRequired": "Code is required",
+  "@codeRequired": {},
+  "codeMustBe6Digits": "Code must be 6 digits",
+  "@codeMustBe6Digits": {},
+  "errorOccurred": "An error occurred",
+  "@errorOccurred": {},
+  "codeSent": "Code sent to your email",
+  "@codeSent": {},
+>>>>>>> 76a50e1 (refactored)
   "enterCodeSent": "Enter the code sent to {email}",
   "@enterCodeSent": {
     "placeholders": {
@@ -31,5 +63,11 @@
     }
   },
   "resendCode": "Resend Code",
+<<<<<<< HEAD
   "backToEmail": "Back to Email"
+=======
+  "@resendCode": {},
+  "backToEmail": "Back to Email",
+  "@backToEmail": {}
+>>>>>>> 76a50e1 (refactored)
 }

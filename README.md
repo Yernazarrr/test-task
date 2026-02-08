@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Тестовое задание
 
 Полноценное Flutter приложение для авторизации через email с использованием JWT токенов.
@@ -34,3 +35,25 @@
   - json_serializable: ^6.12.0
   - intl: ^0.20.2
   - flutter_localizations:
+=======
+<<<<<<< HEAD
+# test-task
+=======
+# test_app
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> d6c13bb (first commit)
+>>>>>>> 76a50e1 (refactored)

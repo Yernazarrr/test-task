@@ -3,6 +3,7 @@ import 'package:injectable/injectable.dart';
 import '../../../../core/constants/api_constants.dart';
 import '../../../../core/network/dio_client.dart';
 import '../models/auth_model.dart';
+import '../models/user_model.dart';
 import 'auth_remote_data_source.dart';
 
 @Injectable(as: AuthRemoteDataSource)
@@ -14,10 +15,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
   @override
   Future<void> sendLoginCode(String email) async {
     try {
-      await dioClient.dio.post(
-        ApiConstants.login,
-        data: {'email': email},
-      );
+      await dioClient.dio.post(ApiConstants.login, data: {'email': email});
     } on DioException catch (e) {
       throw _handleError(e);
     }
@@ -28,10 +26,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
     try {
       final response = await dioClient.dio.post(
         ApiConstants.confirmCode,
-        data: {
-          'email': email,
-          'code': int.parse(code),
-        },
+        data: {'email': email, 'code': int.parse(code)},
       );
       return AuthTokensModel.fromJson(response.data);
     } on DioException catch (e) {
@@ -57,9 +52,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
     try {
       final response = await dioClient.dio.get(
         ApiConstants.auth,
-        options: Options(
-          headers: {'Auth': 'Bearer $accessToken'},
-        ),
+        options: Options(headers: {'Auth': 'Bearer $accessToken'}),
       );
       return UserModel.fromJson(response.data);
     } on DioException catch (e) {
@@ -72,9 +65,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
         error.type == DioExceptionType.receiveTimeout) {
       return Exception('Connection timeout');
     } else if (error.type == DioExceptionType.badResponse) {
-      return Exception(
-        error.response?.data['message'] ?? 'Server error',
-      );
+      return Exception(error.response?.data['message'] ?? 'Server error');
     } else {
       return Exception('Network error');
     }
