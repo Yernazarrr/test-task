@@ -1,16 +1,6 @@
 {
   "@@locale": "en",
   "appTitle": "Auth App",
-<<<<<<< HEAD
-  "emailLabel": "Email",
-  "emailHint": "Enter your email",
-  "sendCodeButton": "Send Code",
-  "codeLabel": "Verification Code",
-  "codeHint": "Enter 6-digit code",
-  "verifyButton": "Verify",
-  "logout": "Logout",
-  "authorized": "Authorized",
-=======
   "@appTitle": {},
   "emailLabel": "Email",
   "@emailLabel": {},
@@ -28,7 +18,6 @@
   "@logout": {},
   "authorized": "Authorized",
   "@authorized": {},
->>>>>>> 76a50e1 (refactored)
   "userId": "User ID: {id}",
   "@userId": {
     "placeholders": {
@@ -38,12 +27,6 @@
     }
   },
   "invalidEmail": "Please enter a valid email",
-<<<<<<< HEAD
-  "codeRequired": "Code is required",
-  "codeMustBe6Digits": "Code must be 6 digits",
-  "errorOccurred": "An error occurred",
-  "codeSent": "Code sent to your email",
-=======
   "@invalidEmail": {},
   "codeRequired": "Code is required",
   "@codeRequired": {},
@@ -53,7 +36,6 @@
   "@errorOccurred": {},
   "codeSent": "Code sent to your email",
   "@codeSent": {},
->>>>>>> 76a50e1 (refactored)
   "enterCodeSent": "Enter the code sent to {email}",
   "@enterCodeSent": {
     "placeholders": {
@@ -63,11 +45,7 @@
     }
   },
   "resendCode": "Resend Code",
-<<<<<<< HEAD
-  "backToEmail": "Back to Email"
-=======
   "@resendCode": {},
   "backToEmail": "Back to Email",
   "@backToEmail": {}
->>>>>>> 76a50e1 (refactored)
 }
